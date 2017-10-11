@@ -1,0 +1,6 @@
+function N_s=compute_N(e,L,D)
+[D_h,~]=size(D);
+for i=1:D_h
+    distance=th_distance(L,D(i))
+end
+end

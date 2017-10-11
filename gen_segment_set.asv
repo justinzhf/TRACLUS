@@ -1,0 +1,11 @@
+function s_set=gen_segment_set(s_data)
+%input: s_data: segment data
+%output: s_set Nx1 struct array, N is the number of segments, 
+%        struct('clus_id',0,seg,[x1,y1,x2,y2])
+[s_h,~]=size(S_data);
+for i=1:s_h
+    segs=S_data(i,1).segs;
+    [segs_h]
+end
+
+end
