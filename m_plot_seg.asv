@@ -1,0 +1,8 @@
+function m_plot_seg(cluster)
+[~,o_w]=size(cluster);
+x=zeros(o_w,1);
+y=
+for i=1:o_w
+    
+end
+end

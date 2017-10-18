@@ -10,9 +10,10 @@ for i=1:s_h
     for j=1:segs_h
         s_set(count).seg=segs(j,:);
         s_set(count).clus_id=0;
-        s_set(count).id=j;
+        s_set(count).id=str2num(strcat(num2str(i),num2str(j)));
         s_set(count).traj_id=s_data(i,1).id;
         count=count+1;
+        
     end
 end
 s_set=s_set';
